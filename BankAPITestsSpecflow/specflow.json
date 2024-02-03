@@ -1,0 +1,17 @@
+{
+  "runtime": {
+    "stepAssemblies": [
+      "TechTalk.SpecFlow"
+    ],
+    "plugins": [
+      {
+        "name": "SpecRun",
+        "parameters": {
+          "generateFeatureFilesBeforeTestRun": "false",
+          "reportFormats": "html",
+          "reportFolder": "TestResults"
+        }
+      }
+    ]
+  }
+}
